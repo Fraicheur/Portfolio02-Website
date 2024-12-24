@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dd63a9-e7d3-4110-93f9-4f3ee95e341c" name="Changes" comment="rename server.py to main.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f8dd63a9-e7d3-4110-93f9-4f3ee95e341c" name="Changes" comment="add secret key for Flask app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,13 +116,22 @@
       <option name="project" value="LOCAL" />
       <updated>1735068922683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add secret key for Flask app">
+      <option name="closed" value="true" />
+      <created>1735069464484</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735069464484</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="create Procfile" />
     <MESSAGE value="rename server.py to main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename server.py to main.py" />
+    <MESSAGE value="add secret key for Flask app" />
+    <option name="LAST_COMMIT_MESSAGE" value="add secret key for Flask app" />
   </component>
 </project>
