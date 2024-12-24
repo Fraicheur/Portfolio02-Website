@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Cam's portfolio</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="static/assets/css/main.css">
+		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper" class="">
+
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-75">
+									<h1 class="major">Hello, my name<br>
+									is Cam.</h1>
+									<p>I am a Python developer, HTML5 and CSS Bootstrap coder, and a video game enthousiast.</p>
+									<ul class="actions">
+										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="static/images/cam01.png" alt="">
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+
+
+						<!-- Intro Panel -->
+							<section id="first" class="panel color1">
+								<div class="intro joined">
+									<h2 class="major">Welcome to my portfolio</h2>
+									<p>Here you will find apps, games and other projects that I have enjoyed creating on my spare time.</p>
+									<p>If you have any questions, please head to the form at the end of this page.</p></div>
+								<div class="inner">
+									<ul class="grid-icons three connected">
+										<li><span class="icon solid fa-code"><span class="label">Code</span></span></li>
+										<li><span class="icon brands fa-python"><span class="label">Python</span></span></li>
+										<li><span class="icon solid fa-database"><span class="label">Data</span></span></li>
+										<li><span class="icon brands fa-html5"><span class="label">HTML</span></span></li>
+										<li><span class="icon solid fa-handshake"><span class="label">Teamplay</span></span></li>
+										<li><span class="icon solid fa-gamepad"><span class="label">Video Games</span></span></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+
+
+						<!-- Images Panel -->
+							<section class="panel">
+
+								<div class="gallery"><div class="modal" tabindex="-1"><div class="inner"><img src="http://127.0.0.1:5000/"></div></div>
+
+
+									<div class="group span-4-5">
+										<a href="static/images/gallery/fulls/Text2Morse.png" class="image filtered span-3" data-position="top"><img src="static/images/gallery/thumbs/Text2Morse-thumb.png" alt="A simple console text-based Morse code translator"></a>
+										<a href="static/images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="static/images/gallery/thumbs/06.jpg" alt=""></a>
+										<a href="static/images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="static/images/gallery/thumbs/07.jpg" alt=""></a>
+										<a href="static/images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="static/images/gallery/thumbs/08.jpg" alt=""></a>
+									</div>
+
+								</div>
+							</section>
+
+						<!-- Contact Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Contact</h2>
+									<p>Please fill out the form here and I will answer as soon as possible.</p>
+								</div>
+								<div class="inner columns divided">
+									<div class="span-3-25">
+										{% if message_sent %}
+											<h2>{{ name }}, your message was sent.</h2>
+										{% endif %}
+										<form method="post" action="{{ url_for('home') }}">
+											<div class="fields">
+												<div class="field half">
+													<label for="name">Name</label>
+													<input type="text" name="name" id="name">
+												</div>
+												<div class="field half">
+													<label for="email">Email</label>
+													<input type="email" name="email" id="email">
+												</div>
+												<div class="field">
+													<label for="message">Message</label>
+													<textarea name="message" id="message" rows="4"></textarea>
+												</div>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="button primary"></li>
+											</ul>
+										</form>
+									</div>
+									<div class="span-1-5">
+										<ul class="contact-icons color1">
+											<li class="icon brands fa-github"><a href="https://github.com/Fraicheur">GitHub</a></li>
+											<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/camille-j-sieger-6668b5316">LinkedIn</a></li>
+											<!--<li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
+											<li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
+											<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>-->
+										</ul>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+
+
+						<!-- Copyright -->
+							<div class="copyright">Design: Cam. Based on the template Ethereal on <a href="https://html5up.net/">HTML5 UP</a>.</div>
+
+					<div class="scrollZone left" style="left: 0px;"></div><div class="scrollZone right" style="right: 0px;"></div></div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	
+<style></style></body></html>
