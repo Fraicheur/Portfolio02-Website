@@ -6,6 +6,7 @@ MAIL_ADDRESS = os.environ.get('EMAIL_FROM')
 MAIL_APP_PW = os.environ.get('EMAIL_PASSWORD')
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
 
 
 @app.route('/', methods=['POST', 'GET'])
