@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dd63a9-e7d3-4110-93f9-4f3ee95e341c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f8dd63a9-e7d3-4110-93f9-4f3ee95e341c" name="Changes" comment="create Procfile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,11 +92,28 @@
       <option name="project" value="LOCAL" />
       <updated>1735068339838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create Procfile">
+      <option name="closed" value="true" />
+      <created>1735068587072</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735068587072</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create Procfile">
+      <option name="closed" value="true" />
+      <created>1735068817130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735068817130</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="create Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Procfile" />
   </component>
 </project>
